@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.filter-text > #form-for-filter {
+  margin: 0;
+}
+
+.table-content {
+  border-collapse: separate;
+  margin: 25px 0;
+  font-size: 0.8em;
+}
+
+.table-content, th, tr, td tr:hover {
+  background-color: #CDCDCD;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+}
+
+.table-content th, .table-content td {
+  padding: 2px 5px;
+}
+
+.table-content tbody tr {
+  border-bottom: 2px solid #DDDDDD;
+}
+
+
+
+.table-content tbody tr:last-of-type {
+  border-radius: #21222ae8;
+}
+
+
+tr:hover {
+  background-color: #4F667D;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 24px;
+  /* text-align: left; */
+  color: #333;
+}
+
+#filter-button, #submit, .delete-button {
+  background-color: #4F667D;
+  color: #DDDDDD;
+  cursor: pointer;
+}
+
+#filter-button {
+  border-collapse: separate;
+  margin: 0px 0;
+  font-size: 0.8em;
+}
+
+#submit {
+  border-collapse: separate;
+  margin: 0px 0;
+  font-size: 0.8em;
 }
