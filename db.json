@@ -97,8 +97,13 @@
       "category": "Food",
       "amount": "3000",
       "id": 14
+    },
+    {
+      "date": "2023-09-14",
+      "description": "Paycheck from Mary's Moringa 1st Installment",
+      "category": "Fees",
+      "amount": "30,200",
+      "id": 15
     }
   ]
- }
- 
- 
+}

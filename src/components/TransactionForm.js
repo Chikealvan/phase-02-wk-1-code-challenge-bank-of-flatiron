@@ -41,7 +41,7 @@ export default function TransactionForm({ hasChange, setHasChange }) {
 
   return (
     <div>
-        <h3 className='filter-text'>Enter New Transaction</h3>
+        <h3>Enter New Transaction</h3>
         <form id="form-for-new" onSubmit={handleSubmit}>
             <input
              type='text'

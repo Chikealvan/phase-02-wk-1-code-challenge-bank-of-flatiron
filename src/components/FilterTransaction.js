@@ -18,7 +18,7 @@ export default function FilterTransaction({ setTransactions }) {
 
   return (
     <div>
-        <h3 className='filter-text'>Filter By Description</h3>
+        <h3>Filter By Description</h3>
         <form id="form-for-filter" onSubmit={filterByDescription}>
             <input name='filter'
              onChange={filterByDescription}
