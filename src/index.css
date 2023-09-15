@@ -28,8 +28,6 @@ form {
   border-collapse: separate;
   font-size: 0.8em;
   margin: 40px auto;
-  width: 60%;
-  object-fit: cover;
 }
 
 .table-content,
