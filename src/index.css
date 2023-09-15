@@ -1,51 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Oxygen&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Oxygen&display=swap");
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Oxygen', 'sans-serif';
+  font-family: "Oxygen", "sans-serif" "system-ui", "-apple-system",
+    "BlinkMacSystemFont", "Segoe UI", "Roboto", "Ubuntu", "Cantarell",
+    "Open Sans", "Helvetica Neue";
+  background: F1F5F8;
+  color: #222;
 }
 
-h3, #form-for-filter, #form-for-new, form {
+h3,
+#form-for-filter,
+#form-for-new,
+form {
   margin: 40px auto;
   text-align: center;
   padding: 0;
+  gap: 2rem;
 }
 
 .table-content {
   border-collapse: separate;
   font-size: 0.8em;
   margin: 40px auto;
+  width: 60%;
+  object-fit: cover;
 }
 
-.table-content, th, tr, td tr:hover {
-  background-color: #CDCDCD;
+.table-content,
+th,
+tr,
+td tr:hover {
+  background-color: #cdcdcd;
   color: black;
   text-align: left;
   font-weight: bold;
 }
 
-.table-content th, .table-content td {
+.table-content th,
+.table-content td {
   padding: 2px 5px;
 }
 
 .table-content tbody tr {
-  border-bottom: 2px solid #DDDDDD;
+  border-bottom: 2px solid #dddddd;
 }
-
-
 
 .table-content tbody tr:last-of-type {
   border-radius: #21222ae8;
 }
 
-
 tr:hover {
-  background-color: #4F667D;
+  background-color: #4f667d;
 }
 
 caption {
@@ -55,14 +66,16 @@ caption {
   color: #333;
 }
 
-#filter-button, #submit, .delete-button {
-  background-color: #4F667D;
+#filter-button,
+#submit,
+.delete-button {
+  background-color: #4f667d;
   border-radius: 5px;
-  color: #DDDDDD;
+  color: #dddddd;
   cursor: pointer;
 }
 
-#filter-button {
+#filter-button #form-for-filter {
   border-collapse: separate;
   margin: 0px 0;
   font-size: 0.8em;
@@ -74,9 +87,8 @@ caption {
   font-size: 0.8em;
 }
 
-
 form {
-  background-color: #FFF;
+  background-color: #fff;
   color: black;
   box-shadow: 1px 1px 3px 2px;
   display: block;
@@ -85,13 +97,13 @@ form {
   max-height: 500px;
 }
 
-form input, text {
+form input,
+text {
   display: flex;
   flex-direction: column;
   width: 100%;
   margin: auto;
-  font-family: 'Oxygen', sans-serif;
-  background-color: #F3F3F3;
-  border: 1px solid #DDD;
+  font-family: "Oxygen", sans-serif;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
 }
-
